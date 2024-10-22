@@ -1,5 +1,5 @@
 class Car{
-  String? ;
+  String? cName;
   double? cPrice;
 
   Car(this.cName,this.cPrice);
