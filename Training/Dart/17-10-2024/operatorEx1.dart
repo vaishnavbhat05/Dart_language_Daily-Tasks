@@ -33,12 +33,14 @@ void main(){
   print(3 >= 3);  //Operator "expr >= expr"
   print(2 <= 3);  //Operator "expr <= expr"
   //Type test Operator
-  dynamic value1 = 42;           // An integer
-  dynamic value2 = "Hello";      // A string
+  int value1 = 42;           // An integer
+  String value2 = "Hello";      // A string
 
+  // ignore: unnecessary_cast
   String message = value2 as String; // Safe to cast since we checked type
   print("Message: $message");
 
+  // ignore: unnecessary_type_check
   if (value1 is int) {
     print("value1 is an integer: $value1");  //Operator is "is"
   }
@@ -50,7 +52,7 @@ void main(){
 
   a = value1;
   // Assign value to b if b is null; otherwise, b stays the same
-  b ??= value1;
+  b = value1;
 
   print(a);
   print(b);
@@ -67,8 +69,8 @@ void main(){
     print("b is greatest");
   }
   // Define two numbers
-  int i = 5; // binary: 0101
-  int j= 3; // binary: 0011
+  // int i = 5; // binary: 0101
+  // int j= 3; // binary: 0011
 
   // Bitwise AND
   int andResult = a & b;

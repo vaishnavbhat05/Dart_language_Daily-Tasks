@@ -1,5 +1,5 @@
 void main() {
-  String naming="h";
+  // String naming="h";
   var name= "Hello";
   int age= 23;
   double percentage= 8.96;

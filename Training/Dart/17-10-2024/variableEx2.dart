@@ -20,6 +20,7 @@ void main()
 print( map.entries.first);
  
   late String description;
+  // ignore: unused_local_variable
   int aged=14;
   for(int i=0;i<4;i++){
   description="Hello Vaishnava";
@@ -32,7 +33,7 @@ print( map.entries.first);
   print(age.runtimeType);
   print(list);
  print(a);
-print(hospitals.kmc);
+print(hospitals.kmc.name);
 
 }
 

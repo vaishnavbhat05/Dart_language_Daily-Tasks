@@ -25,6 +25,7 @@ print("This will be printed");
 
 exit(0);
 
+// ignore: dead_code
 print("This will not be printed");
 
 }

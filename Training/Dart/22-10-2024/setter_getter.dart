@@ -1,6 +1,6 @@
 class VGB{
-  String? FirstName;
-  String? LastName;
+  String FirstName;
+  String LastName;
   int? age;
 
   VGB(this.FirstName,this.LastName);

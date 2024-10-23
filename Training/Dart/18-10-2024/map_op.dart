@@ -11,7 +11,6 @@ void main(){
     2: 'helium',
     10: 'neon',
     18: 'argon',
-    18:"rtn"
   };
   print(gifts);
   print(nobleGases);

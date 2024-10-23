@@ -1,6 +1,7 @@
 class GFG {
-    dynamic? a;
-    dynamic? b;
+    int? a;
+    int? b;
+    // String? name;
 
     void set(a, b)
     {
@@ -10,8 +11,10 @@ class GFG {
 
     void add()
     {
-        var z = this.a + this.b;
+        int z = this.a! + this.b!;
         print("Addition is $z");
+        // name="Vaishnav";
+        // print('Name is ${name??"Guest"}');
     }
 }
 void main()
@@ -39,5 +42,12 @@ void main()
    // print List l2 
    print("Using Spread Operator List becomes: $l2");
 
-   //Later try without using class. 
+
+
+
+
+
+   //TODO:Later try without using class. 
+
+
 }

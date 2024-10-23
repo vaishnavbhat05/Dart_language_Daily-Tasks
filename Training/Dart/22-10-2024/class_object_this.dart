@@ -6,17 +6,18 @@ class Ajay{
     this.num2=num2;
   }
   void display(){
-    int? sum=(num1?? 0)+(num2?? 0);
+    int sum=(num1?? 0)+(num2?? 0);
     print("Sum:$sum");
 
-    int? sub=(num1??0)-(num2??0);
+    int sub=(num1??0)-(num2??0);
     print("Sub:$sub");
 
-    int? mul=(num1??0)*(num2??0);
+    int mul=(num1??0)*(num2??0);
     print("Mul:$mul");
 
-    double? div=(num1??0)/(num2??0);
+    double div=(num1??0)/(num2??0);
     print("Div:$div");
+    
   }
 }
 void main(){
